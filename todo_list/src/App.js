@@ -46,6 +46,8 @@ const App = () => {
       return todo;
     });
     setTodos(updatedTodos);
+
+
   }
   function submitEdits(id) {
     const updatedTodos = [...todos].map((todo) => {

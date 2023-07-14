@@ -32,6 +32,7 @@ const App = () => {
         alert("Enter Valid Task");
         setTodo("");
     }
+    
   }
   function deleteTodo(id) {
     let updatedTodos = [...todos].filter((todo) => todo.id !== id);
